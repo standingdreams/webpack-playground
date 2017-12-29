@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $body-font;
+  font-size: $base-font;
+  height: 100%;
+  line-height: 1.5;
+  position: relative;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  @include mappy-bp(max phone-horiz) {
+    font-size: 15px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  margin: 0;
+}
+
+button {
+  -webkit-tap-highlight-color: rgba(128, 127, 128, 0);
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
