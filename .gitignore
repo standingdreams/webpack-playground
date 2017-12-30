@@ -1,0 +1,12 @@
+# OSX
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+/node_modules/
+/bower_components/
+.idea/
+/vendor/
